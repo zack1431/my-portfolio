@@ -1,0 +1,38 @@
+.sidebar{
+    position: absolute;
+    left: 0;
+    width: 18%;
+    height: 100vh;
+    background: #111418;
+    z-index: 993;
+}
+.nav-item a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav{
+    list-style-type: none;
+}
+ul li{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    line-height: 2;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color: #1BAA80;
+}
+.round-img img{
+    max-width: 100%;
+    width: 180px;
+    border-radius: 50%;
+    border: 5px solid rgb(172, 172, 172);
+    height: 180px;
+}
+.prim-head{
+    font-family: 'Nunito';
+    font-weight: bold;
+    color: #fff;
+}
