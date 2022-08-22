@@ -21,7 +21,7 @@ function App() {
         <div className=''>
           <SideBar></SideBar>
         </div>
-        <div className="offset-2 col-10 p-0">
+        <div className="offset-2 col-10 p-0 position-relative">
           <div className=''>
 
             <Routes>

@@ -16,6 +16,11 @@ body{
 .copyright{
   padding: 10px 15px;
   color: azure;
+  position: relative;
+}
+.copyright .span{
+  position: absolute;
+  right:18%
 }
 .clr-1{
   color: #1BAA80;
