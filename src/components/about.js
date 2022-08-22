@@ -5,7 +5,7 @@ function About(){
             <section className="contact-section container overflowY pb-100 bgclr-2">
                 <div className="position-relative d-flex text-center mb-2 pt-2">
                     <h2 className="text-24 text-white-50 opacity-1 text-uppercase fw-600 w-100 mb-0">About Me</h2>
-                    <p className="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0">Know Me More
+                    <p className="text-9 text-white fw-600 position-absolute w-100 align-self-center lh-base mb-0 text-uppercase">Know Me More
                         <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> 
                     </p>
                 </div>
