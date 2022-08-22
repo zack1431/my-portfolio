@@ -11,6 +11,8 @@ import Contact from './components/contact';
 import Portfolio from './components/portfolio';
 
 function App() {
+  let reSize = window.innerWidth;
+  console.log(reSize);
   return (
     <>
     

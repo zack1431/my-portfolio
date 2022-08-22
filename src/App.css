@@ -269,9 +269,11 @@ body{
 .home-content{
   z-index: 9999;
   top: 20%;
-  left: 15%;
-  margin: 0 auto;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative!important;
 }
 .home-content .h1{
   font-size: 6rem!important;

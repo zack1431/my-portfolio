@@ -23,7 +23,7 @@ function About(){
                                 <span className="clr-2 fw-b">Name: </span><span className="clr-3">Jakir Shaikh</span>
                             </li>
                             <li className="text-left brdr-bm">
-                                <span className="clr-2 fw-b">Email: </span><span className="clr-1">zakrshkh16@gmail</span>
+                                <span className="clr-2 fw-b">Email: </span><span className="clr-1">zakrshkh16@gmail.com</span>
                             </li>
                             <li className="text-left brdr-bm">
                                 <span className="clr-2 fw-b">From: </span><span className="clr-3">Pune, Maharashtra, India</span>

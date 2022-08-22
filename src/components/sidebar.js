@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import './sidebar.css'
-import logo from '../profile.jpg';
+import logo from '../profile2.jpg';
 
 function Sidebar(){
     return (
