@@ -2,10 +2,10 @@ import {Link} from "react-router-dom";
 import './sidebar.css'
 import logo from '../profile2.jpg';
 
-function Sidebar(){
+function Sidebar(props){
     return (
         <>
-        
+            
             <div className="sidebar">
                 <div className="pt-5">
                     <div className="text-center round-img">
