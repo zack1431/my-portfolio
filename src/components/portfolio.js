@@ -8,7 +8,7 @@ function Portfolio(){
                         <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> 
                     </p>
                 </div>
-                <div className="pl-20 d-flex mb-1">
+                <div className="pl-20 d-flex mb-1 mobile">
                     <div className="progress1 myWork position-relative d-flex p-5 cursor">
                         <img className="image" alt="image1" src="https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/62ff71c716b8cf0008e82a22/screenshot_2022-08-19-11-19-42-0000.png"/>
                         <div className="overlay">
@@ -24,7 +24,7 @@ function Portfolio(){
                     </div>
                 </div>
                 
-                <div className="pl-20 d-flex mb-1">
+                <div className="pl-20 d-flex mb-1 mobile">
                     <div className="progress1 myWork position-relative d-flex p-5 cursor">
                         <img className="image" alt="image1" src="https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/627fbe308889307a4e082203/screenshot_2022-05-14-14-35-39-0000.png"/>
                         <div className="overlay">
@@ -40,7 +40,7 @@ function Portfolio(){
                     </div>
                 </div>
                 
-                <div className="pl-20 d-flex mb-1">
+                <div className="pl-20 d-flex mb-1 mobile">
                     <div className="progress1 myWork position-relative d-flex p-5 cursor">
                         <img className="image" alt="image1" src="https://screenshot-proxy.netlify.app/f_jpg,w_336/https://d33wubrfki0l68.cloudfront.net/629cc38c3bfacf547e10f382/screenshot_2022-06-05-14-54-12-0000.png"/>
                         <div className="overlay">

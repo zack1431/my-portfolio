@@ -8,8 +8,8 @@ function Skills(){
                         <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> 
                     </p>
                 </div>
-                <div className="pl-20 d-flex mb-5">
-                    <div className="progress1 d-flex bg-dark p-5">
+                <div className="pl-20 d-flex mb-5 mobile">
+                    <div className="progress1 d-flex bg-dark p-5 mb-2">
                         <div className=" ">
                             <i className="skillIcon bgclr-1  fas fa-paint-brush clr-2 fa-lg p-3"></i>
                         </div>

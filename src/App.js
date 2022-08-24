@@ -13,7 +13,19 @@ import {useState,useEffect} from 'react';
 
 function App() {
   const [isMobile, setIsMobile] = useState(false)
- 
+  const [isLoading, setIsLoading] = useState(true);
+  function Loader(props){
+    return props.isLoader ? (
+      <>
+
+        <div className="spinner-container">
+          <div className="loading-spinner">
+          </div>
+        </div>
+      </>
+    )
+    : '';
+  }
 //choose the screen size 
 const handleResize = () => {
   if (window.innerWidth < 720) {
@@ -21,17 +33,23 @@ const handleResize = () => {
   } else {
       setIsMobile(false)
   }
+  
+    
 }
 
 // create an event listener
 useEffect(() => {
   window.addEventListener("resize", handleResize)
   window.addEventListener("load", handleResize)
+  setTimeout(() =>{
+    setIsLoading(false)
+  },3000)
 })
   return (
     <>
     
     <BrowserRouter>
+       <Loader isLoader={isLoading}/>
       <div className=' p-0'>
         <div className='menu'>
           <SideBar isMobile={isMobile}></SideBar>
@@ -41,7 +59,7 @@ useEffect(() => {
 
             <Routes>
               <Route path="/" element={<Home isMobile={isMobile}/>}/>
-              <Route path="/about" element={<About/>}/>
+              <Route path="/about" element={<About isMobile={isMobile}/>}/>
               <Route path="/skills" element={<Skills/>}/>
               <Route path="/portfolio" element={<Portfolio/>}/>
               <Route path="/contact" element={<Contact/>}/>

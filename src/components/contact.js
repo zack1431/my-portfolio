@@ -8,8 +8,8 @@ function Contact(){
                         <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> 
                     </p>
                 </div>
-                <div className="container d-flex">
-                    <div className="col-md-4 pl-20">
+                <div className="container d-flex mobile">
+                    <div className="col-md-4 col-xs-12 mob-center pl-20 mb-5">
                         <h4 className="clr-2">Address</h4>
                         <div className="clr-2 mb-4">
                             <p className="lineHeight2">Sr No 5, Lane No 7, Ashraf Nagar,<br/> Behind Gausulwara Masjid,<br/> Kondhwa, Pune - 48, Maharashtra, India</p>
@@ -19,8 +19,8 @@ function Contact(){
                             <p><i className="clr-1 fas fa-envelope fa-lg pr-10"></i><a className="tel-icon clr-2" href="mailto:zakrshkh16@gmail.com">zakrskh07@gmail.com</a></p>
                         </div>
                     </div>
-                    <div className="col-md-7">
-                        <h4 className="clr-2 pb-4 text-uppercase">Send us a note</h4>
+                    <div className="col-md-7 col-xs-12 mob-center">
+                        <h4 className="clr-2 pb-4 text-uppercase">Send us a note<span className="heading-separator-line border-bottom border-3 border-primary d-block mt-1 m-0 width20"></span></h4>
                         <div className="d-flex">
                             <div className="inputText">
                                 <input type="text" className="form-control clr-2" placeholder="Name" id="inputPassword4"/>
