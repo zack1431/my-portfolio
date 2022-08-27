@@ -30,6 +30,9 @@ body{
 .bgclr-1{
   background-color: #1BAA80;
 }
+.bgclr-3{
+  background-color: #343A40;
+}
 .pr-240{
   padding-right: 240px;
 }
@@ -76,6 +79,9 @@ body{
 }
 .clr-2{
   color: #fff;
+}
+.bgclr-4{
+  background-color: #DC3545;
 }
 .contact-section input {
   background: #232A31;

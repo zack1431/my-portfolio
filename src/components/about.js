@@ -14,8 +14,9 @@ function About(props){
                         <h3 className="clr-2 fw-b mb-2">I'm <span className="clr-1 fw-b text-capitalize">Jakir Shaikh, </span>
                             a Full Stack Developer.
                         </h3>
-                        <p className="clr-3 lineHeight2 fs-20">I help you build brand for your business at an affordable price. Number of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <p className="clr-3 lineHeight2 fs-20">Delivering work within time and budget which meets client’s requirements is our moto.</p>
+                        <p className="clr-3 lineHeight2 fs-20">For the past 2 years i've been working as a full stack developer at vizlitics technologies pvt ltd, Based in pune. I've some background in computer science with a degree in Bachelor of computer application from poona college. Here my roles & responsibilities is to look after the product User interface, design, functionality, user experience and implementing server side scripts and rest api's with the client side. With the app(product) based on ionic & angular, Managing the application code with the help of code versioning tool Git. </p>
+                        <p className="clr-3 lineHeight2 fs-20">Delivering work within time in a team environment.</p>
+                        <p className="clr-3 lineHeight2 fs-20">I have more than 3 years of experience working with web technologies and skills such as javscript,angular,html,css,scss,rest apis, nodejs. In which angular is the major technology i've used in my career til date.</p>
                     </div>
                     <div className={props.isMobile ? "width100 p-2" : "width30 p-2" }>
                         <ul className={props.isMobile ? "fs-20" : "pl-20 fs-20" }>
@@ -31,6 +32,29 @@ function About(props){
                         </ul>
                         <div className="">
                             <button type="submit" className="btn bgclr-1 submitbtn fw-600 width60 ml-2"><a href={cv} download>Download CV</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div className='pl-20 mt-3 mb-5'>
+                    <h2 className={props.isMobile ? 'clr-2 m-0 text-center' : 'clr-2'}>Past Experiences</h2>
+                    <span className="heading-separator-line border-bottom border-3 border-primary d-block mt-1 m-0 width20"></span>
+                </div>
+                <div className="pl-20 d-flex mobile">
+                    
+                    <div className="progress1 d-flex bgclr-3 p-5 mb-2">
+                        <div className="">
+                            <span className='badge p-2 bgclr-4 mb-2'>2018-2020</span>
+                            <h4 className="clr-2 fw-b">Front End Developer(Agile)</h4>
+                            <p className='clr-1'>Parmar Excellence Pvt Ltd</p>
+                            <p className="clr-2 lineHeight2">I started my career as a web developer with parmar excellence, and have wonderful experiences on variety of projects.</p>
+                        </div>
+                    </div>
+                    <div className="progress2 d-flex bgclr-3 p-5 mb-2">
+                        <div className="">
+                        <span className='badge p-2 bgclr-4 mb-2'>2020 - till date</span>
+                            <h4 className="clr-2 fw-b">Full Stack Developer (Angular)</h4>
+                            <p className='clr-1'>Vizlitics Technologies Pvt Ltd</p>
+                            <p className="clr-2 lineHeight2">Got a wonderful opportunity to work with health based industry. Vizlitics is a product based firm focusing on products for cancer hospital</p>
                         </div>
                     </div>
                 </div>

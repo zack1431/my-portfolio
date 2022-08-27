@@ -15,16 +15,16 @@ function Skills(){
                         </div>
                         <div className="">
                             <h4 className="clr-2 fw-b">UI/UX Design & Development</h4>
-                            <p className="clr-2 lineHeight2">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                            <p className="clr-2 lineHeight2">Responsible for applying interactive and visual design principles on websites and web applications for a positive and cohesive user experience. These developers use HTML, CSS, and other design tools to achieve responsive designs.</p>
                         </div>
                     </div>
-                    <div className="progress2 d-flex bg-dark p-5">
+                    <div className="progress2 d-flex bg-dark p-5 mb-2">
                         <div className="">
                             <i className="bgclr-1 skillIcon p-3 fas fa-desktop clr-2 fa-lg"></i>
                         </div>
                         <div className="">
                             <h4 className="clr-2 fw-b">App Design & Development</h4>
-                            <p className="clr-2 lineHeight2">Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                            <p className="clr-2 lineHeight2">Mobile / Progessive web application development process of creating software applications that run on a mobile device and on web browser, With the help of Ionic to create hybrid applications for multi purpose based on your application requirements. </p>
                         </div>
                     </div>
                 </div>
