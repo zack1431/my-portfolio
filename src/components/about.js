@@ -1,5 +1,7 @@
-import cv from '../zs_resume2.docx'
+import cv from '../zs_resume2.pdf'
 function About(props){
+
+    
     return (
         <>
             <section className="contact-section container overflowY pb-100 bgclr-2">
@@ -31,7 +33,7 @@ function About(props){
                             </li>
                         </ul>
                         <div className="">
-                            <button type="submit" className="btn bgclr-1 submitbtn fw-600 width60 ml-2"><a href={cv} download>Download CV</a></button>
+                            <button type="submit" className="btn bgclr-1 submitbtn fw-600 width60 ml-2"><a href={cv} target="_blank" rel="noreferrer">Download CV</a></button>
                         </div>
                     </div>
                 </div>
