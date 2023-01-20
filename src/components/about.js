@@ -1,4 +1,4 @@
-import cv from '../zs_resume2.pdf'
+import cv from '../zs_resume2.docx'
 function About(props){
 
     
@@ -54,7 +54,7 @@ function About(props){
                     <div className="progress2 d-flex bgclr-3 p-5 mb-2">
                         <div className="">
                         <span className='badge p-2 bgclr-4 mb-2'>2020 - till date</span>
-                            <h4 className="clr-2 fw-b">Full Stack Developer (Angular)</h4>
+                            <h4 className="clr-2 fw-b">Senior Full Stack Developer (Angular)</h4>
                             <p className='clr-1'>Vizlitics Technologies Pvt Ltd</p>
                             <p className="clr-2 lineHeight2">Got a wonderful opportunity to work with health based industry. Vizlitics is a product based firm focusing on products for cancer hospital</p>
                         </div>
